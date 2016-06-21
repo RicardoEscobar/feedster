@@ -26,7 +26,7 @@ var main = function() {
   });
 
   $('.post .btn').click(function() {
-        
+    $(this).toggleClass('btn-like');
   });
 }
 
