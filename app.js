@@ -24,6 +24,10 @@ var main = function() {
   $('.notification img').click(function() {
     $('.notification-menu').toggle();
   });
+
+  $('.post .btn').click(function() {
+        
+  });
 }
 
 $(document).ready(main);
